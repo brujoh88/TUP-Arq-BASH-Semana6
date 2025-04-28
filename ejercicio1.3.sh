@@ -3,6 +3,21 @@
 # Fecha: [28/10/2025]
 
 clear
+echo "Ejercicio 1.3"
+echo "1."
+if [ $# -eq 0 ]; then
+    echo "No se han pasado parámetros al script."
+    exit 1
+fi
+if [ $# -lt 9 ]; then
+    echo "Se han pasado menos de 9 parámetros al script."
+    exit 1
+fi
+if [ $# -gt 9 ]; then
+    echo "Se han pasado más de 9 parámetros al script."
+    exit 1
+fi
+echo "Se han pasado exactamente 9 parámetros al script."
 echo "2."
 echo "El parametro \$1 es: $1"
 echo "El parametro \$2 es: $2"

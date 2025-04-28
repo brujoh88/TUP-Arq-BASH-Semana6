@@ -2,6 +2,7 @@
 # Autor: [Tiseira Gustavo]
 # Fecha: [25/10/2025]
 clear
+echo "Ejercicio 1.1"
 echo "Nombre del usuario: $LOGNAME [LOGNAME]"
 echo "El directorio home del usuario es: $HOME [HOME]"
 echo "La shell que se está utilizando es: $SHELL [SHELL]"
